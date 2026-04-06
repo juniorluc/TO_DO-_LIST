@@ -1,0 +1,14 @@
+:root {
+    /* Colors */
+    --header-color: #eaeaea;
+    --primary-color-list: #ffffff;
+    --secundary-color-list: #f8f8f8;
+
+    /* Typography */
+    --font-base: 'Inter', sans-serif;
+
+    /* Spacing */
+
+    /* Edges */
+    --border-radius: 8px;
+}
