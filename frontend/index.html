@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To-do list</title>
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="/frontend/css/style.css">
 </head>
 <body>
@@ -23,19 +25,31 @@
             </ul>
         </header>
 
-        <section>
-                <ul class="list-data">
+        <section class="task-list">
+            <ul class="list-data">
                 <li>1</li>
                 <li>Marcos</li>
                 <li>200</li>
                 <li>Yummi</li>
-                <button class="view-button">Visualizar</button>
-                <button class="edit-button">Editar</button>
-                <button class="delete-button">Deletar</button>
+                <button class="view-button">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    Visualizar
+                </button>
+                <button class="edit-button">
+                    <i class="fa-regular fa-pen-to-square"></i>
+                    Editar
+                </button>
+                <button class="delete-button">
+                    <i class="fa-regular fa-trash-can"></i>
+                    Delete
+                </button>
             </ul>
         </section>
 
-        <button class="add-button">Adicionar</button>
+        <button class="add-button">
+            <i class="fa-solid fa-plus"></i>
+            Adicionar
+        </button>
 
     </main>
 
