@@ -18,11 +18,12 @@ html {
 }
 
 h1 {
-    margin: 16px 0px 16px 0px;
+    margin: 16px 0px 0px 0px;
 }
 
 main {
     padding: 20px;
+    width: 605px;
 }
 
 main header {
@@ -40,23 +41,30 @@ main header {
     display: flex;
     align-items: center;
     flex-direction: row;
-    justify-content: space-around 
+    justify-content: space-around;
 }
 
-.task-list {
-    width: 605px;
+.action-tab {
+    width: 260px;
 }
 
 .list-data {
     background-color: var(--primary-color-list);
-    padding: 10px;
     height: 49px;
     margin: 0px;
+    padding: 0px 10px 0px 10px;
     list-style: none;
     display: flex;
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.information-list-buttons {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
 }
 
 button {
@@ -65,14 +73,51 @@ button {
     border-radius: var(--border-radius);
     border-style: none;
     padding: 10px;
-    gap: 4px;
     width: 92px;
     height: 39px;
     background-color: #2E75AE;
     color: #ffffff;
     box-shadow: 0px 4px 4px #00000030;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
 }
+
+button:hover {
+    background-color: #2E75AE96;
+    transition: 0.2s;
+}
+
+.edit-button {
+    background-color: #FFBA4C;
+}
+
+.edit-button:hover {
+    background-color: #FFBA4C96;
+    transition: 0.2s;
+}
+
+.delete-button {
+    background-color: #D03232;
+}
+
+.delete-button:hover {
+    background-color: #D0323296;
+    transition: 0.2s;
+}
+
+.add-button {
+    background-color: #18A121;
+    width: 100%;
+    height: 45px;
+}
+
+.add-button:hover {
+    background-color: #18a12196;
+    transition: 0.2s;
+
+}
+
+footer p {
+    margin: 0px 0px 16px 0px;
+}
+
+
+
